@@ -43,7 +43,7 @@ export default function Home() {
               Shop Featured
             </a>
             <a
-              href="/help"
+              href="/Help"
               className="px-6 py-2.5 border rounded-full border-gray-700 text-gray-300 text-sm sm:text-base hover:border-orange-500 hover:text-orange-500 transition-all"
             >
               Need Bulk Orders?
