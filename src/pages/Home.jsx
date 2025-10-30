@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import API from "../api/api";
 import ProductCard from "../components/ProductCard";
 
@@ -42,12 +43,12 @@ export default function Home() {
             >
               Shop Featured
             </a>
-            <a
-              href="/Help"
+            <Link
+              to="/help"
               className="px-6 py-2.5 border rounded-full border-gray-700 text-gray-300 text-sm sm:text-base hover:border-orange-500 hover:text-orange-500 transition-all"
             >
               Need Bulk Orders?
-            </a>
+            </Link>
           </div>
         </div>
 

@@ -28,10 +28,10 @@ export default function Help() {
           </p>
           <p className="text-center">
             <a
-              href="mailto:support@gsthreads.example"
+              href="mailto:gsthreads25@gmail.com"
               className="text-orange-500 font-medium hover:underline break-all"
             >
-              support@gsthreads.example
+              gsthreads25@gmail.com
             </a>
           </p>
         </div>
@@ -47,13 +47,13 @@ export default function Help() {
           <p className="text-gray-400 text-sm sm:text-base text-center mb-3">
             For college fests, clubs, or startup merch — get custom quotes & fast delivery.
           </p>
-          <p className="text-center text-gray-400 text-sm">📞 +91-98765-43210</p>
+          <p className="text-center text-gray-400 text-sm">📞 +91-7489547689</p>
           <p className="text-center mt-1">
             <a
-              href="mailto:bulk@gsthreads.example"
+              href="mailto:gsthreads25@gmail.com"
               className="text-orange-500 font-medium hover:underline break-all"
             >
-              bulk@gsthreads.example
+              gsthreads25@gmail.com
             </a>
           </p>
         </div>
@@ -82,7 +82,7 @@ export default function Help() {
             Instagram
           </a>
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/917489547689"
             target="_blank"
             rel="noreferrer"
             className="border border-orange-500 text-orange-500 px-6 py-2 rounded-full font-semibold text-sm sm:text-base hover:bg-orange-500 hover:text-white transition-all"

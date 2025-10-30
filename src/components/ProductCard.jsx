@@ -19,7 +19,7 @@ export default function ProductCard({ product }) {
 
   // ✅ Contact via WhatsApp (mobile-friendly)
   function contactSupplier() {
-    const phone = "919876543210"; // <-- replace with your WhatsApp number (no + or spaces)
+    const phone = "+917489547689"; // <-- replace with your WhatsApp number (no + or spaces)
     const message = encodeURIComponent(
       `Hi gsThreads 👋! I'm interested in the product "${product.title}" priced at ₹${product.price}. Could you share more details?`
     );

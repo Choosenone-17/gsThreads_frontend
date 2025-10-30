@@ -27,10 +27,10 @@ export default function Footer() {
           <div className="text-left sm:text-center md:text-left">
             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
             <ul className="space-y-2 text-brand-gray">
-              <li><a href="/products" className="hover:text-brand-orange">Products</a></li>
-              <li><a href="/about" className="hover:text-brand-orange">About Us</a></li>
-              <li><a href="/help" className="hover:text-brand-orange">Help</a></li>
-              <li><a href="/contact" className="hover:text-brand-orange">Contact</a></li>
+              <li><a href="#" className="hover:text-brand-orange">Products</a></li>
+              <li><a href="/About" className="hover:text-brand-orange">About Us</a></li>
+              <li><a href="/Help" className="hover:text-brand-orange">Help</a></li>
+              <li><a href="/Help" className="hover:text-brand-orange">Contact</a></li>
             </ul>
           </div>
 
@@ -50,12 +50,12 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-white mb-4">Get In Touch</h4>
             <ul className="space-y-2 text-brand-gray text-lg">
               <li>
-                <a href="mailto:support@gsthreads.com" className="hover:text-brand-orange">
-                  ✉︎ support@gsthreads.com
+                <a href="mailto:gsthreads25@gmail.com" className="hover:text-brand-orange">
+                  ✉︎ gsthreads25@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+919876543210" className="hover:text-brand-orange">
+                <a href="tel:+919179337751" className="hover:text-brand-orange">
                   📞 +91 9179337751
                 </a>
               </li>
