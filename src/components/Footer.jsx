@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Grid Section */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-          
+
           {/* Brand Section */}
           <div className="text-left sm:text-center md:text-left">
             <h1 className="text-3xl font-bold text-brand-orange mb-4">gsThreads</h1>
@@ -65,15 +65,28 @@ export default function Footer() {
         </div>
 
         {/* Footer Bottom */}
-        <div className="border-t border-brand-orange mt-10 pt-6 flex flex-col md:flex-row items-center justify-between">
+        <div className="border-t border-brand-orange mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
           <p className="text-sm text-brand-gray">
-            © {new Date().getFullYear()} gsThreads. All rights reserved.
+            © {new Date().getFullYear()} <span className="text-white font-semibold">gsThreads</span>. All rights reserved.
           </p>
-          <p className="text-sm text-brand-gray">
-            <a href="https://www.linkedin.com/in/yashvardhan-patel-a64790330/" target="_blank" className="hover:text-brand-orange transition-colors">Check Linkedin!<FaLinkedinIn /></a>
-            Designed & Developed by <span className="text-brand-orange font-semibold">Yashvardhan Patel</span>
+
+          <p className="text-sm text-brand-gray flex items-center gap-2">
+            <a
+              href="https://www.linkedin.com/in/yashvardhan-patel-a64790330/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 hover:text-brand-orange transition-colors"
+            >
+              <span>Connect on</span> <FaLinkedinIn className="text-brand-orange" />
+            </a>
+            <span className="hidden md:inline text-gray-600">|</span>
+            <span>
+              Designed & Developed by{" "}
+              <span className="text-brand-orange font-semibold">Yashvardhan Patel</span>
+            </span>
           </p>
         </div>
+
       </div>
     </footer>
   );

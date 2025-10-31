@@ -96,8 +96,7 @@ export default function Help() {
       <div className="text-center mt-12 text-gray-500 text-xs sm:text-sm">
         <p>
           © {new Date().getFullYear()}{" "}
-          <span className="text-orange-500 font-semibold">gsThreads</span> — Made with ❤️
-          for campuses.
+          <span className="text-orange-500 font-semibold">gsThreads</span> — Developed by Yashvardhan Patel
         </p>
       </div>
     </div>
