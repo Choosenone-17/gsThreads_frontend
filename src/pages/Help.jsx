@@ -74,7 +74,7 @@ export default function Help() {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://instagram.com/gsthreads"
+            href="https://www.instagram.com/gsthread?igsh=eml6dmEycWZ2Y2Q1"
             target="_blank"
             rel="noreferrer"
             className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold text-sm sm:text-base hover:bg-orange-600 transition-all"
